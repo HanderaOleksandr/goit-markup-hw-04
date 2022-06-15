@@ -144,12 +144,7 @@ body {
 
 .email-icon-sprite {
   margin-right: 10px;
-  fill: #757575;
-}
-
-.email-icon-sprite:hover,
-.email-icon-sprite:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 .header-tel {
@@ -163,17 +158,6 @@ body {
   padding-top: 32px;
   display: flex;
 }
-
-/* .header-tel::before {
-  content: '';
-  background-image: url(../images/icons/header/tel.svg);
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .header-tel:hover {
   color: var(--accent-color);
@@ -190,12 +174,7 @@ body {
 
 .tel-icon-sprite {
   margin-right: 10px;
-  fill: #757575;
-}
-
-.tel-icon-sprite:focus,
-.tel-icon-sprite:hover {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 /* -------------------main------------------- */
